@@ -37,7 +37,7 @@ app.post("/", function(req, res) {
 
     const options = {
         method: "POST",
-        auth: "pratik:1d89683099a39df52e3473041c987e8b-us6"
+        auth: ""
     }
 
     const request = https.request(url, options, function(response) {
@@ -67,6 +67,3 @@ app.listen(process.env.PORT || 3000, function(req, res) {
     console.log("Port started successfully")
 });
 
-//api key 
-// 1d89683099a39df52e3473041c987e8b-us6
-//list id =
