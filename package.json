@@ -1,0 +1,18 @@
+{
+    "name": "newletter-signup",
+    "version": "1.0.0",
+    "description": "This is a newsletter signup form ",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "pratik",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.9",
+        "request": "^2.88.2",
+        "start": "^5.1.0"
+    }
+}

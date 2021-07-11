@@ -1,0 +1,132 @@
+.navbar-btn {
+    /* margin-top: 15 px;
+    margin-bottom: 8px; */
+    padding: 1px;
+}
+
+.current {
+    background-color: #383838;
+    border-radius: 3px;
+}
+
+.current {
+    background-color: #383838;
+    border-radius: 3px;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    margin-top: 32px;
+    padding: 9px;
+    position: relative;
+}
+
+.content::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    border-radius: 12px;
+}
+
+.content-left {
+    font-family: var(--font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 49px;
+    z-index: 1;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    height: 355px;
+    border: 2px solid black;
+    border-radius: 200px;
+}
+
+.home-article-content {
+    align-self: center;
+    padding: 25px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Add a gray background color with some padding */
+
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+
+/* .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+} */
+
+
+/* Fake image */
+
+.fakeimg {
+    background-image: url("Copy of Black and Gray Mountain Dark Minimalist UI Religious  Spiritual Desktop Wallpaper.png");
+    width: 100%;
+    padding: 20px;
+}
+
+.fakeimg1 {
+    background-image: url("11.svg");
+    width: 100%;
+    padding: 20px;
+}
+
+.fakeimg2 {
+    background-image: url("Untitled\ design.png");
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* Footer */
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 800px) {
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+footer {
+    background-color: black;
+    height: 35px;
+    color: white;
+    padding: 7px;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    margin: 2px 0 0 14%;
+}
